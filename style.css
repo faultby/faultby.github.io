@@ -1,9 +1,26 @@
 /* style.css */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    background-color: #f0ede7;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align content at the top of the page */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    width: 80%; /* Adjust the width as needed, like 80% of the page */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Optional: Add some space inside the container */
+}
+
+/* Desktop-specific styles */
+@media (min-width: 768px) {
+    .container {
+        width: 50%; /* Adjust this to control how much space is left on the sides */
+    }
 }
 
 header {
@@ -22,14 +39,27 @@ ul {
     padding: 0;
 }
 
+/* Style for all links */
 a {
-    text-decoration: none;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-    border-radius: 5px;
+    color: inherit; /* Use the same text color as the surrounding text */
+    text-decoration: none; /* Remove the underline */
+    background: none; /* Remove any background */
 }
 
+/* Optional: Add hover effect to all links */
 a:hover {
-    background-color: #ddd;
+    text-decoration: underline; /* Underline when hovered */
+}
+
+.intro-paragraph {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.references {
+    font-size: 0.8em;
+    color:black;
+    margin-top: 5px;
 }
