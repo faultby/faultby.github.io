@@ -45,6 +45,7 @@ figure img {
 }
 
 figcaption {
+    text-align: left;
     font-size: 0.9em; /* Reduces the font size for the caption */
     color: #555; /* Optional: Changes the caption text color */
     margin-top: 10px; /* Adds space between the image and caption */
@@ -67,6 +68,13 @@ a:hover {
     text-decoration: underline; /* Underline when hovered */
 }
 
+.publisher-info {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 5 px;
+}
+
 .intro-paragraph {
     font-weight: bold;
     font-size: 1.2em;
@@ -78,4 +86,25 @@ a:hover {
     font-size: 0.8em;
     color:black;
     margin-top: 5px;
+}
+
+.figure-title {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.figure-legend {
+    font-size: 0.8em;
+    color: #000000;
+    margin-bottom: 0px;
+    al;
+}
+
+.figure-info {
+    font-size: 0.8em;
+    color: #000000;
+    margin-bottom: 5px;
+    align-self: flex-start;
 }
