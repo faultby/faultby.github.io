@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 80%; /* Adjust the width as needed, like 80% of the page */
+    width: 90%; /* Adjust the width as needed, like 80% of the page */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Optional: Add some space inside the container */
 }
@@ -32,6 +32,22 @@ header {
 
 main {
     padding: 20px;
+}
+
+figure {
+    text-align: center; /* Centers the figure and caption */
+    margin: 20px 0; /* Adds space above and below the figure */
+}
+
+figure img {
+    max-width: 100%; /* Makes sure the image doesn't exceed the container's width */
+    height: auto; /* Keeps the image aspect ratio intact */
+}
+
+figcaption {
+    font-size: 0.9em; /* Reduces the font size for the caption */
+    color: #555; /* Optional: Changes the caption text color */
+    margin-top: 10px; /* Adds space between the image and caption */
 }
 
 ul {
