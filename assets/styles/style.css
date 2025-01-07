@@ -1,6 +1,6 @@
 /* style.css */
 body {
-    font-size: 3ex;
+    font-size: clamp(1rem, 2.5vw, 3ex); /* Responsive font size */
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
     background-color: #e8e8eb;
@@ -76,7 +76,7 @@ a:hover {
     font-size: 0.9em;
     font-style: italic;
     color: #000000;
-    margin-bottom: 5 px;
+    margin-bottom: 5px;
 }
 
 .intro-paragraph {
@@ -88,7 +88,7 @@ a:hover {
 
 .references {
     font-size: 0.8em;
-    color:black;
+    color: black;
     margin-top: 5px;
 }
 
@@ -115,7 +115,7 @@ a:hover {
 }
 
 article h3 {
-    font-size: 1.4em;
+    font-size: clamp(1.2em, 2.5vw, 1.4em); /* Responsive font size for h3 */
     color: #000000;
     margin-top: 40px;
     margin-bottom: 10px;
