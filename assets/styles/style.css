@@ -3,7 +3,7 @@ body {
     font-size: clamp(1rem, 2.5vw, 3ex); /* Responsive font size */
     line-height: 1.6;
     font-family: 'Roboto', sans-serif;
-    background-color: #e8e8eb;
+    background-color: #fafafaec;
     margin: 0; /* Remove default body margin */
     padding: 0; /* Remove default body padding */
     display: flex;
@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background-color: #1f4144;
+    background-color: #4c5152;
     color: white;
     padding: 10px;
     text-align: center;
@@ -38,8 +38,7 @@ main {
 
 figure {
     text-align: center; /* Centers the figure and caption */
-    margin-top: 20px; /* Adds space above and below the figure */
-    margin-bottom: 40px;
+    margin: 40px 0 ; /* Adds space above and below the figure */
 }
 
 figure img {
@@ -52,6 +51,7 @@ figcaption {
     font-size: 0.9em; /* Reduces the font size for the caption */
     color: #555; /* Optional: Changes the caption text color */
     margin: 0; /* Adds space between the image and caption */
+    margin-bottom: 40px;
     line-height: 1.2;
 }
 
@@ -82,7 +82,7 @@ a:hover {
 .intro-paragraph {
     font-weight: bold;
     font-size: 1.0em;
-    color: #333;
+    color: #605060;
     margin-bottom: 20px;
 }
 
